@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+/*   fonts     */
+
+h1 {
+    font-family: "Arvo";
+    font-weight: normal;
+    font-size: 55px;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: "Arvo";
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+    padding: 0;
+    text-shadow: 2px 2px 18px #111;
+}
+
+h3 {
+    font-family: "Arvo";
+    font-weight: normal;
+    font-size: 30px;
+    margin: 5px 0;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+}
+
+h4 {
+    font-family: "Arvo";
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+}
+
+p {
+    font-family: "Arvo";
+    font-weight: normal;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-shadow: 6px 2px 18px #111
+}
+
+
+/* Total Space */
+
+.content {
+    margin: 0 auto;
+    width: 95%;
+}
+
+
+/* top nav styling*/
+
+#header {
+    width: 100%;
+    background: url('../img/header-bg.png');
+    height: 80px;
+    position: fixed;
+    margin-top: 30px;
+}
+
+#nav {
+    width: 66%;
+    float: right;
+    margin-top: 20px;
+}
+
+#title a {
+    color: #fff;
+    float: left;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: "Wellfleet";
+    font-style: italic;
+}
+
+#nav ul {
+    display: block;
+    margin: 0 auto;
+    float: right;
+}
+
+#nav li {
+    margin-top: 9px;
+    float: left;
+    padding-left: 21px;
+}
+
+#nav li a {
+    color: #fff;
+    opacity: 0.7;
+    font-size: 20px;
+    font-family: 'Wellfleet';
+}
+
+#nav li a.active {
+    color: #fff;
+    opacity: 1;
+    border-bottom: 2px solid #fff;
+}
+
+#nav li a:hover {
+    color: #fff;
+    opacity: 1;
+    border-bottom: 2px solid #fff;
+}
+
+
+/*  Slide 1 */
+
+#slide1 {
+    width: 100%;
+    height: 1080px;
+    background: url('../img/slide1.jpg') no-repeat fixed;
+    color: #fff;
+    margin: 0;
+    padding: 750px 0 0 0;
+    background-size: cover;
+}
+
+#openingTxt {
+    padding-left: 200px;
+}
+
+
+/*  Slide 2  */
+
+#slide2 {
+    background: url(../img/slide2.jpg) no-repeat;
+    color: #fff;
+    height: 1080px;
+    width: 100%;
+    padding: 650px 0 0 0;
+    background-size: cover;
+}
+
+#aboutMe p {
+    position: relative;
+    width: 50%;
+}
+
+#about {
+    text-shadow: 0 4px 10px black;
+}
+
+#resume {
+    padding-bottom: 15px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 30px;
+    position: relative;
+    width: 50%;
+    text-align: right;
+    text-shadow: 6px 2px 18px #111;
+}
+
+#file {
+    color: #fff;
+    text-align: right
+}
+
+
+/* Slide 3 */
+
+#slide3 {
+    background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+    height: 1080px;
+    margin: 0 auto;
+    padding: 400px 0 0 0;
+    color: #fff;
+    background-size: cover;
+}
+
+#projectHeader {
+    text-align: center;
+    text-shadow: 0 4px 10px black;
+}
+
+#OL,
+#FC,
+#DD {
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+#origin {
+    width: 40%;
+    height: 40%;
+}
+
+#firmConnection,
+#theDD {
+    width: 50%;
+    height: 50%
+}
+
+
+/* Slide 4*/
+
+#slide4 {
+    background: url(../img/slide4.jpg) 50% 0 no-repeat fixed;
+    height: 1080px;
+    margin: 0 auto;
+    padding: 150px 0;
+    color: #fff;
+    background-size: cover;
+}
+
+#social-icons {
+    color: #fff;
+    padding: 5px;
+}
+
+#social {
+    text-align: right;
+}
+
+#project-roles {
+    text-align: left;
+}
+
+#profilePic {
+    height: 144px;
+    width: 144px;
+    float: right;
+}
+
+
+/*media queries*/
+
+
+/*  moniters */
+
+@media screen and (min-width: 1900px) {
+    p {
+        font-size: 40px;
+    }
+    #slide2 {
+        padding-top: 650px 0 0 0;
+    }
+    #slide3 {
+        padding: 450px 0 0 0;
+    }
+    #social {
+        padding-top: 400px;
+    }
+}
+
+
+/*Large Labtop*/
+
+@media screen and (min-width: 1440px) {
+    #slide1 {
+        padding-top: 650px;
+    }
+    #slide2 {
+        padding-top: 650px 0 0 0;
+    }
+    #slide3 {
+        padding: 450px 0 0 0;
+    }
+    #social {
+        padding-top: 400px;
+    }
+}
+
+
+/*Med Labtop*/
+
+@media screen and (min-width: 1024px) {
+    #slide1 {
+        padding-top: 450px;
+    }
+    #slide2 {
+        padding: 350px 0 0 0;
+    }
+    #slide3 {
+        padding: 250px 0 0 0;
+    }
+    #social {
+        padding-top: 200px;
+    }
+    #profilePic {
+        float: right;
+    }
+}
+
+
+/*Small screen/Tablets*/
+
+@media screen and (min-width: 768px) {
+    #slide1 {
+        padding-top: px;
+    }
+    #slide3 {
+        padding-top: 300px;
+    }
+}
